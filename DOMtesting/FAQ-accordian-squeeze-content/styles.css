@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	background-image: url('pexels-skitterphoto-9295.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.accordian{
+	width: 65%;
+	background-color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+.accordian .accordian-title{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 1.9rem;
+}
+.accordian .content-container .question{
+	padding: 18px 0px;
+	font-size: 1.5rem;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+	position: relative;
+}
+.accordian .content-container .question::after{
+	content: '+';
+	position: absolute;
+	right: -5px;
+}
+.accordian .content-container .answer{
+	padding: 15px 0px;
+	font-size: 1.2rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: none;
+}

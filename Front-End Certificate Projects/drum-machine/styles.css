@@ -1,0 +1,39 @@
+/* *{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.outer-container{
+	border: 5px solid black;
+}
+
+.switch{
+	position: relative;
+	display: inline-block;
+	width:40px;
+	height: 20px;
+	background-color: aqua;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.slider{
+	position: absolute;
+	top: 0;
+	left:0;
+	width:20px;
+	height: 20px;
+	background-color: white;
+	trans
+} */
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.drum-pad{
+	width: 50px;
+	margin: 10px;
+}

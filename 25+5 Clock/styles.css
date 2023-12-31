@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+} */
+.main,
+.change
+ {
+	display: flex;
+	justify-content: space-between;
+}
+.main {
+	margin: 0 auto;
+	width: 400px;
+	border: 2px solid black;
+	align-items: center;
+	margin-top: 300px;
+	height: 10vh;
+	text-align: center;
+	padding: 0 30px;
+}
+.timer{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 400px;
+	border: 2px solid black;
+	align-items: center;
+	margin-top: 20px;
+	height: 30vh;
+	text-align: center;
+	padding: 0 30px;
+}

@@ -1,0 +1,29 @@
+
+
+
+.container{
+	margin: 0 auto;
+	
+	width: 60%;
+}
+.btn,
+.decimal,
+.operator{
+	width: 50px;
+	margin-top: 5px;
+}
+.equal{
+	width: 210px;
+}
+/* .main-display,
+.container-buttons{
+	width: 500px;
+} */
+#display{
+	text-align: right;
+    direction: ltr;
+	border: 1px solid black;
+	margin-left: 12px;
+	width: 215px;
+	height: 20px;
+}

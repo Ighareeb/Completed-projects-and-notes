@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title > Survey </title>
+  <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+<h1 id="title" >Survey</h1>
+<h2>Help we can help you</h2>
+<p id="description">This is a survey to survey our perfomance. Thank you for your participation.</p>
+<form id="survey-form">
+    </label><input id="name" type="text" required placeholder="Enter your name" required>
+    <label id="name-label"/> Enter your name</input>
+  <input id="email" type="email" required placeholder="Enter valid email" required><label id="email-label"/> Enter your email</input> 
+  <input id="number" type="number" min="1" max="30" required placeholder="Enter your name"><label id="number-label"/> Enter your number</input>
+
+  <p>Please choose one below:</p>
+  <select id="dropdown" class="dropdown">
+    <option value="option 1" >Option 1</option>
+    <option value="option 2">Option 2</option>
+  </select>
+  <p>Would you say that Option 1 is more important to you, or option 2?</p> 
+  <input type="radio" name="radio buttons" value="radio buttons"> Option 1</input>
+  <input type="radio" name="radio buttons" value="radio buttons">Option 2</input>
+  <p>Would you say... Please check all that apply:</p>
+  <input type="checkbox" value="checkbox 1">This</input>
+  <input type="checkbox" value="checkbox 2">This 2</input>
+  <input type="checkbox" value="checkbox 3">This 3</input>
+  <input type="checkbox" value="checkbox 4">This 4</input>
+  <input type="checkbox" value="checkbox 5">This 5</input>
+  <textarea class="textarea">Any additional comments?</textarea>
+  <input type="Submit" id="submit" class="submit"></input>
+
+</form>
+
+<footer class="footer">Thank you for your time!</footer>
+</body>
+  </html>

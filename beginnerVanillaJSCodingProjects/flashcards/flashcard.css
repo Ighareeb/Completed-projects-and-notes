@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Calligraffitti&family=Gloria+Hallelujah&family=Skranji:wght@700&family=Sulphur+Point:wght@700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	border: 2px solid black;;
+	font-family: 'Calligraffitti', cursive;
+	font-size: 1rem;
+	background-color: whitesmoke;
+	}
+
+header {
+	border: 2px solid green;
+	background-color: white;
+}
+
+button {
+	padding: 8px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container{
+	border: 2px solid yellow;
+	width: 95%;
+	margin: auto;
+}
+
+.nav{
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	padding: 20px 0;
+	background-color: white;
+}				/*has the newcard and deletecardbuttons*/
+
+.nav button{
+	font-family: inherit;
+}
+
+.create-box{
+	border: 0.5px solid blue;
+	width: 380px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	box-shadow: 0 5px 10px 0 black;
+}
+
+.create-box textarea{
+	width: 100%;
+	border-radius: 5px;
+	font-family: inherit;
+	border: 1px solid lightgray;
+}
+
+.create-box button{
+	width: fit-content;
+
+}
+
+.flashcards{
+	border: 2px dashed black;
+	display: flex;
+	justify-content: flex-start; /* creates card on the LEFT*/
+	align-items: flex-start; 
+	flex-wrap: wrap; /* when doesnt fit in screen or container wraps to screen size*/
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+/*give dimensions to new flashcards which are created dynamically with JS so not div flashcard(s)*/
+.flashcard{
+	width: 370px;
+	height: 200px;
+	word-wrap: break-word; /*when text is too long it breaks to next line*/
+	margin: 10px;
+	background-color: white;
+	box-shadow: 0 5px 10px 0 black;
+}
+
+.flashcard h2{
+	font-size: 1rem;
+}
+
+@media(max-width: 768px){
+	.flashcard{
+	margin: auto;	/*centers flashcard @768px*/
+	}
+	.flashcard{
+	margin-top: 10px;	
+	margin-bottom: 10px;	
+	}
+}
+
+@media(max-width: 480px){
+	.nav{
+		flex-direction: column;
+		align-items: center;
+	}
+	.create-box{
+		width: 100%;
+	}
+	.flashcard{
+        width: 100%;
+    }
+}

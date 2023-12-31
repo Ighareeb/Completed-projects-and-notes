@@ -1,0 +1,27 @@
+#btns{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}
+
+#info1 > div{
+	 display: flex;
+	 flex-direction: column;
+	 
+	
+
+}
+
+/* #info1 > div > label{
+	display: inline-block;
+	width: 150px;
+} */
+/* input{
+	padding: 5px 10px 5px 0px;
+} */
+
+button:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+	color: aqua;
+}

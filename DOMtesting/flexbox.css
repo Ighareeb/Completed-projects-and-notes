@@ -1,0 +1,42 @@
+.container{
+	background-color: pink;
+	height:25vh;
+	width: 50vw;
+	padding: 0.5em;
+	margin: 25vh auto 0;
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap:nowrap;
+	justify-content: center; */
+	/* align-items: flex-start; */
+	
+	
+}
+
+.item{
+	background-color: lightblue;
+	margin: 0.5em;
+	
+}
+.one{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 250px;
+	
+}
+.two{
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 250px;
+	align-self: flex-end;
+	order:-1;
+}
+.three{
+	flex-grow: 4;
+	flex-shrink: 4;
+	flex-basis: 250px;
+}
+
+/* .big{
+	font-size: 2em;
+} */
